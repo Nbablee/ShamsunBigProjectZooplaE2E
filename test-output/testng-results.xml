@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-05T19:58:52Z" name="SanityTest" finished-at="2022-09-05T19:59:14Z" duration-ms="21673">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.zoopla.myrunner.ZooplaMyRunner@6a47b187]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-09-05T19:58:52Z" name="com.zoopla" finished-at="2022-09-05T19:59:14Z" duration-ms="21673">
+      <class name="com.zoopla.myrunner.ZooplaMyRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.zoopla.myrunner.ZooplaMyRunner@6a47b187]" started-at="2022-09-05T19:58:52Z" name="setUpClass" finished-at="2022-09-05T19:58:53Z" duration-ms="441" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@367f0121]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.zoopla.myrunner.ZooplaMyRunner@6a47b187]" started-at="2022-09-05T19:58:53Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-05T19:59:14Z" duration-ms="20733" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User able to login the application & verify the users informations on the grid"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User able to use zoopla application, login the application, searching the property, buy the property"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.zoopla.myrunner.ZooplaMyRunner@6a47b187]" started-at="2022-09-05T19:59:14Z" name="tearDownClass" finished-at="2022-09-05T19:59:14Z" duration-ms="465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.zoopla.myrunner.ZooplaMyRunner -->
+    </test> <!-- com.zoopla -->
+  </suite> <!-- SanityTest -->
+</testng-results>
